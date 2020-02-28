@@ -10,10 +10,10 @@ Please note you need to allow the browser to access your location to make this a
 
 - [React](https://reactjs.org/) - The web framework used
 - [Create-React-App](https://reactjs.org/docs/create-a-new-react-app.html)
-- [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+- [axios](https://github.com/axios/axios) - Used to fetch data from the API
 - [style-components 💅](https://styled-components.com/) - CSS in JS
-- [gh-pages](https://react-bootstrap.github.io/) - The most popular front-end framework. Rebuilt for React.
-- [DOTENV](https://www.npmjs.com/package/dotenv)
+- [gh-pages](https://react-bootstrap.github.io/) - Used to deploy
+- [DOTENV](https://www.npmjs.com/package/dotenv) - Used to hide the API key
 
 ## 🧝‍♂️ Author
 
