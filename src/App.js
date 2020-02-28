@@ -11,7 +11,7 @@ const App = () => {
     const response = await openWeather.get("/forecast", {
       params: {
         q: "London",
-        appid: process.env.REACT_APP_WEATHER_API,
+        appid: "94a45afae7581212919abed641621327",
         units: "metric"
       }
     });
