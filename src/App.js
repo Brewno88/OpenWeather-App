@@ -4,18 +4,17 @@ import openWeather from "./api/openWeather";
 import TodayCard from "./TodayCard";
 import DayCard from "./DayCard";
 
-// import useLocation from "./useLocation";
+import useLocation from "./useLocation";
 
 const App = () => {
   const [data, setData] = useState(null);
-  // const [lat, lon, errorMessage] = useLocation();
+  const [lat, lon, errorMessage] = useLocation();
 
   const getWeather = async (city, units) => {
     const response = await openWeather.get("/forecast", {
       params: {
-        // lat: lat,
-        // lon: lon,
-        q: "london",
+        lat: lat,
+        lon: lon,
         appid: "94a45afae7581212919abed641621327",
         units: "metric"
       }
@@ -23,17 +22,12 @@ const App = () => {
     setData(response.data);
   };
 
-  // useEffect(() => {
-
-  // }, [errorMessage, lat, lon]);
-
   return data === null ? (
     <>
       <GlobalStyle />
       <button
         className="getWeather"
-        // onClick={errorMessage.length !== 0 ? null : getWeather}
-        onClick={getWeather}
+        onClick={errorMessage.length !== 0 ? null : getWeather}
       >
         get Weather
       </button>
