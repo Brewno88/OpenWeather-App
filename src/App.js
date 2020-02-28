@@ -7,7 +7,7 @@ import DayCard from "./DayCard";
 const App = () => {
   const [data, setData] = useState(null);
 
-  const getWeather = async (city, units) => {
+  const getWeather = async () => {
     const response = await openWeather.get("/forecast", {
       params: {
         q: "London",
