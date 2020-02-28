@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled, { createGlobalStyle } from "styled-components";
 import openWeather from "./api/openWeather";
 import TodayCard from "./TodayCard";
@@ -11,7 +11,7 @@ const App = () => {
     const response = await openWeather.get("/forecast", {
       params: {
         q: "London",
-        appid: "94a45afae7581212919abed641621327",
+        appid: process.env.REACT_APP_WEATHER_API,
         units: "metric"
       }
     });
