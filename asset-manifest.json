@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/OpenWeather-App/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/OpenWeather-App/static/js/main.88cfdcd2.chunk.js",
-    "main.js.map": "/OpenWeather-App/static/js/main.88cfdcd2.chunk.js.map",
+    "main.js": "/OpenWeather-App/static/js/main.fd66c4bf.chunk.js",
+    "main.js.map": "/OpenWeather-App/static/js/main.fd66c4bf.chunk.js.map",
     "runtime-main.js": "/OpenWeather-App/static/js/runtime-main.99f2161e.js",
     "runtime-main.js.map": "/OpenWeather-App/static/js/runtime-main.99f2161e.js.map",
     "static/js/2.0a4312d1.chunk.js": "/OpenWeather-App/static/js/2.0a4312d1.chunk.js",
     "static/js/2.0a4312d1.chunk.js.map": "/OpenWeather-App/static/js/2.0a4312d1.chunk.js.map",
     "index.html": "/OpenWeather-App/index.html",
-    "precache-manifest.a5094dfa48d0154242141326f6ccc0ea.js": "/OpenWeather-App/precache-manifest.a5094dfa48d0154242141326f6ccc0ea.js",
+    "precache-manifest.0257bd0606248282454b740837c7f4e7.js": "/OpenWeather-App/precache-manifest.0257bd0606248282454b740837c7f4e7.js",
     "service-worker.js": "/OpenWeather-App/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/OpenWeather-App/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.0a4312d1.chunk.js.LICENSE.txt": "/OpenWeather-App/static/js/2.0a4312d1.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.99f2161e.js",
     "static/js/2.0a4312d1.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.88cfdcd2.chunk.js"
+    "static/js/main.fd66c4bf.chunk.js"
   ]
 }
