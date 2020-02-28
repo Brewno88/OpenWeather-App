@@ -23,13 +23,34 @@ Please note you need to allow the browser to access your location to make this a
 
 ## 🏃‍♂ Run
 
-In order to run this app you need Node.
+Clone this repo where you want in your computer:
 
-Then run
-`npm install`
+```
+git clone https://github.com/Brewno88/OpenWeather-App.git
+```
 
-`npm start` to run the app in the localhost in your browser.
+`cd` into it:
 
-## 🚀 Deploy
+```
+cd OpenWeather-App
+```
 
-I used the npm package [gh-pages](https://www.npmjs.com/package/gh-pages) to deploy this project.
+Run it in your favorite code editor:
+
+```
+code .
+```
+
+In order to run this app you need Node.js installed
+
+Now let's install the node_modules
+
+```
+npm install
+```
+
+The app is ready to be viewed in your localhost
+
+```
+npm start
+```
